@@ -1,2 +1,0 @@
-function iniciarApp(){console.log("Ini"),scrollNav()}function scrollNav(){document.querySelectorAll(".navegacion-principal a").forEach(n=>{n.addEventListener("click",(function(n){n.preventDefault();const e=n.target.attributes.href.value;document.querySelector(e).scrollIntoView({behavior:"smooth"}),console.log("Funcionando")}))})}document.addEventListener("DOMContentLoaded",(function(){iniciarApp()}));
-//# sourceMappingURL=app.js.map
